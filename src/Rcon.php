@@ -3,14 +3,14 @@
  * See https://developer.valvesoftware.com/wiki/Source_RCON_Protocol for
  * more information about Source RCON Packets
  *
- * PHP Version 7
+ * PHP Version 8
  *
- * @copyright 2013-2017 Chris Churchwell
- * @author thedudeguy
- * @link https://github.com/thedudeguy/PHP-Minecraft-Rcon
+ * @copyright 2024 Hodokami
+ * @author Hodokami
+ * @link https://github.com/Hodokami/PHP-Palworld-Rcon
  */
 
-namespace Thedudeguy;
+namespace Hodokami;
 
 class Rcon
 {
