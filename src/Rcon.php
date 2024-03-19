@@ -119,15 +119,9 @@ class Rcon
 
         // get response
         $response_packet = $this->readPacket();
-        if ($response_packet['id'] == self::PACKET_COMMAND) {
-            if ($response_packet['type'] == self::SERVERDATA_RESPONSE_VALUE) {
-                $this->lastResponse = $response_packet['body'];
+        $this->lastResponse = $response_packet['body'];
 
-                return $response_packet['body'];
-            }
-        }
-
-        return false;
+        return $response_packet['body'];
     }
 
     /**
