@@ -1,23 +1,23 @@
 {
-	"name": "thedudeguy/rcon",
+	"name": "hodokami/palrcon",
 	"description": "Simple Rcon class for php.",
-	"keywords": ["rcon", "minecraft"],
-	"homepage": "https://github.com/thedudeguy/PHP-Minecraft-Rcon",
-	"license": "MIT",
+	"keywords": ["rcon", "palworld"],
+	"homepage": "https://github.com/Hodokami/PHP-Palworld-Rcon",
+	"license": "GPL-3.0-or-later",
 	"authors": [
 		{
-			"name": "Chris Churchwell",
-			"homepage": "http://chrischurchwell.com",
-			"email": "chris@chrischurchwell.com"
+			"name": "Hodokami",
+			"homepage": "http://tellaresdo.com",
+			"email": "mail@tellaresdo.com"
 		}
 	],
 	"support": {
-		"issues": "https://github.com/thedudeguy/PHP-Minecraft-Rcon/issues",
-		"source": "https://github.com/thedudeguy/PHP-Minecraft-Rcon/tree/master"
+		"issues": "https://github.com/Hodokami/PHP-Palworld-Rcon/issues",
+		"source": "https://github.com/Hodokami/PHP-Palworld-Rcon/tree/master"
 	},
 	"autoload": {
 		"psr-4": { 
-			"Thedudeguy\\": "src/"
+			"Hodokami\\": "src/"
 		}
     } 
 }
